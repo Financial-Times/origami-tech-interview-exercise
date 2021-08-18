@@ -1,0 +1,35 @@
+{
+  "name": "origami-tech-interview-exercise",
+  "version": "1.0.0",
+  "description": "The Origami technical pairing interview.",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/origami-tech-interview-exercise.git"
+  },
+  "keywords": [
+    "Origami",
+    "interview",
+    "paired"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/origami-tech-interview-exercise/issues"
+  },
+  "homepage": "https://github.com/Financial-Times/origami-tech-interview-exercise#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.38.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ie_mob 11"
+  ]
+}
