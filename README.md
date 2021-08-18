@@ -15,7 +15,7 @@ We're not expecting you to complete this exercise, do only as much as you can wi
 
 1. Clone the exercise with `git clone git@github.com:Financial-Times/next-tech-interview-exercise.git`.
 2. Install the dependencies with `npm install`.
-3. Start the app with `npm dev`.
+3. Start the app with `npm run dev`.
 4. To make changes see `index.html`, `src/index.js`, and `src/index.scss`.
 
 ## Using our Securities Quotes API
