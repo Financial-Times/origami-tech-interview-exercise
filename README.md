@@ -5,7 +5,7 @@ Use the [securities quotes api](#using-our-securities-quotes-api) (also known as
 It could look something like the following.
 ![Screenshot of an example securities data component](https://user-images.githubusercontent.com/51677/67555386-b6c5fc80-f700-11e9-86bd-55e975be0441.png)
 
-We are more interested in how you work than in how much code you write. Treat this like a pair programming session, we are here to help so ask us questions and let us know what you are doing and why. You can use Google or any other resources you would like.
+We are more interested in how you work than in how much code you write. You can use Google or any other resources you would like.
 
 We're not expecting you to complete this exercise, do only as much as you can within the time that we have.
 
