@@ -1,13 +1,16 @@
-# Origami Technical Interview
+# Origami Technical Excercise 
 
-Use the [securities quotes api](#using-our-securities-quotes-api) (also known as stock prices) to populate a client-side component with their percentage change for the day.
+We would like you to use the [securities quotes api](#using-our-securities-quotes-api) (also known as stock prices) to populate a client-side component with their percentage change for the day. We do not expect any server-side code to be written for this exercise.
 
-It could look something like the following.
+An example of how this component could look is below. However, it does not need to look exactly like this.
 ![Screenshot of an example securities data component](https://user-images.githubusercontent.com/51677/67555386-b6c5fc80-f700-11e9-86bd-55e975be0441.png)
 
-We are more interested in how you work than in how much code you write. You can use Google or any other resources you would like.
 
-We're not expecting you to complete this exercise, do only as much as you can within the time that we have.
+- Please don't spend more than 1 hour on this exercise.
+- We're not expecting you to complete this exercise, do only as much as you can within the time that you have.
+- We are more interested in how you work than in how much code you write.
+- You can use Google or any other resources you would like.
+- We prefer to see solutions which use HTML, JavaScript and Sass/CSS, without using a framework like React or Vue.
 
 ## Prerequisites
 
@@ -18,11 +21,15 @@ Running this project requires [Node.js](https://nodejs.org/en/) 14.x and [npm](h
 1. Clone this repository (`Financial-Times/origami-tech-interview-exercise`) to your machine.
 2. Install the dependencies with `npm install`.
 3. Start the app with `npm run dev`.
-4. Make changes by editing `index.html`, `src/index.js`, and `src/index.scss`.
+4. Make changes by editing the HTML in `index.html`, the JavaScript in `src/index.js`, and the Sass in `src/index.scss`.
 
 ## Using our Securities Quotes API
 
-To fetch the day's percentage change for a security you can use our Securities Quotes API.
+To fetch the day's percentage change for a security you can use our Securities Quotes API, which is located at https://markets-data-api-proxy.ft.com/research/webservices/securities/v1/quotes.
+
+The Securities Quotes API is a real production API and as such the values in the response will change over time.
+
+Documentation for the Securities Quotes API is below.
 
 ### HTTP Request
 
